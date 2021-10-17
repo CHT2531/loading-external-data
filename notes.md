@@ -87,8 +87,8 @@ const showCapitalFrance = function(data){
 	console.log(countries[1].capital); //outputs paris
 }
 
-doAjax("./data/countries.json",showPopulations);
-doAjax("./data/countries.json",showCapitalFrance);
+loadData("./data/countries.json",showPopulations);
+loadData("./data/countries.json",showCapitalFrance);
 ```
 
 ### Callback functions
