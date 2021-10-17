@@ -27,9 +27,6 @@ const showInfo(data){
 }
 ```
 
-This code makes use of promises, a programming concept that takes a little getting use to. My advice is to get familiar with what ```fetch()``` does
-
-
 ## Making several requests
 Often we want to make lots of ```fetch()``` requests. For example, I might want a list of countries and then later on display details for a specific country. We might end up with code like this:
 
