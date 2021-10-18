@@ -5,8 +5,8 @@ fetch("./data/films.json").then(function(response) {
 });
 
 
-const displayData = function(data){
-	console.log(data)
+const displayData = function(films){
+	console.log(films)
 } //end of the function, don't remove this
 
 
