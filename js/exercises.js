@@ -21,9 +21,9 @@ const displayData = function(films){
 // c) Have a good look at the structure of films-object.json. Add the details for another film. Modify the code so that the new film's details are displayed in the console.
 
 // Q3) Next we'll use an API instead of hard coded data
-// a) Open a new tab in a web browser enter https://www.swapi.tech/api/species. See the response you get from the SWAPI site.
+// a) Open a new tab in a web browser enter https://www.swapi.tech/api/vehicles. See the response you get from the SWAPI site.
 // b) Modify your code from the previous question so that you load data from the Star Wars API using this URL. To start with use a simple console.log to print the entire response. Then think about about how you can list just the species names.
-// c) Have a look at https://www.swapi.tech/docs and modify your code to make a request for a single species. Display some of the species details
+// c) Have a look at https://www.swapi.tech/docs and modify your code to make a request for a single vehicle. Display some of the vehicle details
 
 // Q4) Now think about how you can make the code more re-usable.
 //a) Create a new function, call it loadData(). Put the fetch() code in this function. The loadData() function should accept two arguments, a URL to request data from and a callback that will be executed when the data is returned. Have a look on the notes (in this repository) for an example.
