@@ -1,4 +1,4 @@
-# Instructions for running CHT2531 JavaScript Exercises
+# Loading External Data
 
 1. Download or clone the repository.
 2. Inside this folder there are a number of files. Here are the ones we are interested in:
