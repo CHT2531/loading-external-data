@@ -26,7 +26,7 @@ We can install a web server as an atom package. Similar 'packages' are available
 
 ### Using HTTP-SERVER
 There is a node.js package *http-server*. To use it, do the following:
-* Open a node.js command prompt
+* Open a node.js command prompt (it must be 'Node.js command prompt' not Node.js)
 * Enter
 ```
 npm install http-server -g
