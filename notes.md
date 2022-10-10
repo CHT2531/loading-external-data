@@ -21,7 +21,7 @@ fetch("./data/countries.json").then(function(response) { //request the countries
 		showInfo(json); //call the showInfo function
 });
 
-const showInfo(data){
+function showInfo(data){
   const countries = data;
   console.log(countries[1].capital); //outputs Paris
 }
@@ -38,7 +38,7 @@ fetch("./data/countries.json").then(function(response) {
 		showPopulations(json); //call the showPopulations function
 });
 
-const showPopulations(data){
+function showPopulations(data){
   const countries = data;
   countries.forEach(function(country){
 			console.log(`${country.name} has a population of ${country.population} `);
@@ -53,7 +53,7 @@ fetch("./data/countries.json").then(function(response) {
 		showCapitalFrance(json); //call the showCapitalFrance function
 });
 
-const showCapitalFrance(data){
+function showCapitalFrance(data){
   const countries = data;
   console.log(countries[1].capital); //outputs Paris
 }
@@ -75,14 +75,14 @@ function loadData(url,callback)
 	});
 } //end of loadData
 
-const showPopulations = function(data){
+function showPopulations(data){
 	const countries = data;
 	countries.forEach(function(country){
 		console.log(`${country.name} has a population of ${country.population} `);
 	})
 }
 
-const showCapitalFrance = function(data){
+function showCapitalFrance(data){
 	const countries = data;
 	console.log(countries[1].capital); //outputs paris
 }
