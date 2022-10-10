@@ -12,16 +12,8 @@ To complete the exercises this week you will need to run *index.html* from a web
 
 There are a number of ways to do this.
 
-### Using atom-live-web-server
-We can install a web server as an atom package. Similar 'packages' are available in other text editors e.g VS Code.
-* Open atom
-* Select file>Open folder and select this folder
-* Select file>settings>install
-* The install packages menu should appear
-* Search for 'atom-live-server'
-* Click the install button
-* Once it is installed
-* Select packages>atom-live-server->start server
+### Using VS Code
+We can install a web server as an VS Code extension see [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 
 ### Using HTTP-SERVER
