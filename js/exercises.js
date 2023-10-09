@@ -28,7 +28,7 @@ const displayData = function(films){
 //    See the response you get from the SWAPI site.
 // b) Modify your code from the previous question so that you load data from the Star Wars API using this URL. 
 //    To start with use a simple console.log to print the entire response. 
-//    Then think about about how you can list just the species names.
+//    Then think about about how you can list just the vehicles' names.
 // c) Have a look at https://www.swapi.tech/docs and modify your code to make a request for a single vehicle. 
 //    Display some of the vehicle details
 
